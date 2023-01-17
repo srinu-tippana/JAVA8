@@ -1,0 +1,11 @@
+package com.javanew.imper;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class RemoveDuplicates {
+	
+	List<Integer> integerList = new ArrayList<Integer>();
+	
+
+}

@@ -1,0 +1,47 @@
+package com.examples;
+
+public class RunnableLambdaExample {
+	
+	public static void main(String args[])
+	{
+		//normal runnable implementation
+		Runnable runnable = new Runnable() {
+			@Override
+			public void run() {
+				System.out.println("runnable");
+			}
+		};
+		
+		new Thread(runnable).start();
+		
+		//java8 lambda syntax
+		
+		//()->{}
+		
+		Runnable runnableLamda =() ->{
+			 System.out.println("Lambda Runnable");
+		};
+		
+		
+		//for single line statements
+		Runnable runnableLambda1 = ()-> System.out.println("Lambda Runnable 1");
+		
+		new Thread(runnableLamda).start();
+		
+		new Thread(runnableLambda1).start();
+		
+		new Thread(new Runnable() {
+			@Override
+			public void run()
+			{
+				System.out.println("the runnable");
+			}
+		}).start();
+		
+		new Thread(()->{
+			System.out.println("direct runnable");
+		}).start(); 
+	}
+
+	
+}

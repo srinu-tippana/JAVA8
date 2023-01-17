@@ -1,0 +1,15 @@
+package com.learn.lambdas;
+
+public class RunnableLambdaExample {
+	
+	public static void main()
+	{
+		Runnable runnable = new Runnable() {
+			@Override
+			public void run() {
+				
+			}
+		};
+	}
+
+}

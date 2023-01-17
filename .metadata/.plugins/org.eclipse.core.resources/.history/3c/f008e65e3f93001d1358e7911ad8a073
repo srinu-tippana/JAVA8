@@ -1,0 +1,16 @@
+package com.javanew.imper;
+
+public class ImperativeVsDeclarativeExample {
+	
+	public static void main(String[] args)
+	{
+		/*
+		 * Imperative - o to 100 num sum
+		 */
+		
+		int sum =0;
+		
+	}
+	
+
+}

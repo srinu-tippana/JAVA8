@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\svas7\Videos\JAVASTACK\JAVA8\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+496996758.index
+2460387614.index
