@@ -17,7 +17,19 @@ public class PredicateExample {
    public static void predicateAnd(){
 
        System.out.println(predicate1.and(predicate2).test(10));
+
+       /*
+        or operation using predicate will return true if one of the operations is true
+        */
        System.out.println(predicate1.or(predicate2).test(4));
+   }
+
+    /***
+     * Operation performing negate using Predicate
+     * JAVA8
+     */
+   public static void predicateNegate(){
+       System.out.println(predicate1.or(predicate2).negate().test(4));
    }
     public static void main(String[] args) {
 
@@ -26,7 +38,7 @@ public class PredicateExample {
 
 
        predicateAnd();
-
+       predicateNegate();
 
 
 
