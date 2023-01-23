@@ -19,6 +19,15 @@ public class Student {
         this.activites=activities;
     }
 
+    public Student() {
+
+    }
+
+    public Student(String s) {
+
+        this.name=s;
+    }
+
     public String getName() {
         return name;
     }
